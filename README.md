@@ -5,3 +5,5 @@ A responsive digital clock built with HTML, CSS, and vanilla JavaScript. It show
 ## Run locally
 
 Open `index.html` in a web browser. No installation or build step is required.
+
+The Nigerian Navy, FUD, STEMLAB Kano, and Special Boat Service images are stored locally in `assets/`, so they are included when the project is published.

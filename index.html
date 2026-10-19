@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#10131d" />
-    <title>Digital Clock</title>
+    <meta name="theme-color" content="#090909" />
+    <title>Gold Edition | Digital Clock</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <main class="clock-card">
+      <div class="brand-row" aria-label="Clock edition">
+        <span class="brand-mark">CEO</span>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <span class="brand-name">TIME<span>KEEPER</span></span>
+        <span class="edition">GOLD EDITION</span>
+      </div>
+
       <div class="eyebrow"><span class="status-dot"></span> LOCAL TIME</div>
 
       <time class="clock" id="clock" aria-label="Current local time">
@@ -25,6 +32,12 @@
       <button class="format-toggle" id="format-toggle" type="button">
         Switch to 24-hour time
       </button>
+
+      <div class="affiliations" aria-label="Decorative monogram badges">
+        <span class="affiliation"><img class="navy-logo" src="assets/nigerian-navy.png" alt="Nigerian Navy emblem" loading="lazy" /><span>NIGERIAN NAVY</span></span>
+        <span class="affiliation"><img class="fud-logo" src="assets/fud-seal.png" alt="Federal University Dutse seal" loading="lazy" /><span>FEDERAL UNIVERSITY DUTSE</span></span>
+        <span class="affiliation"><img class="stemlab-logo" src="assets/stemlab-kano.png" alt="STEMLAB Kano logo" loading="lazy" /><span>STEMLAB KANO</span></span>
+      </div>
     </main>
   </body>
 </html>
