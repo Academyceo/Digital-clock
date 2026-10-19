@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10131d" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="clock-card">
+      <div class="eyebrow"><span class="status-dot"></span> LOCAL TIME</div>
+
+      <time class="clock" id="clock" aria-label="Current local time">
+        <span class="clock-main" id="clock-main">--:--</span>
+        <span class="clock-details">
+          <span class="seconds" id="seconds">--</span>
+          <span class="period" id="period"></span>
+        </span>
+      </time>
+
+      <p class="date" id="date">Loading date...</p>
+
+      <button class="format-toggle" id="format-toggle" type="button">
+        Switch to 24-hour time
+      </button>
+    </main>
+  </body>
+</html>
